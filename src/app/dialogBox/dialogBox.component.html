@@ -1,0 +1,6 @@
+<p-dialog header="{{header}}" [(visible)]="displayDialog" [closable]="false">
+    {{messagebody}}
+    <p-footer>
+        <button type="text"  (click)="displayDialog=false" pButton icon="fa-external-link-square" label="Ok" (click)="displayDialog=false"></button>
+    </p-footer>
+  </p-dialog>
